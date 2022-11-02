@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1b37298-cc28-4efa-8c06-390a8fda61e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UserProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/InstructorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/InstructorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/FactoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +57,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FactoryTest.instructorFactoryShouldReturnHumanConstructor (1)">
+  <component name="RunManager" selected="JUnit.UserTest.HumanInstructorReturnsUpperCase">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Factory" />
@@ -142,8 +137,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FactoryTest.instructorFactoryShouldReturnHumanConstructor (1)" />
         <item itemvalue="JUnit.UserTest.HumanInstructorReturnsUpperCase" />
+        <item itemvalue="JUnit.FactoryTest.instructorFactoryShouldReturnHumanConstructor (1)" />
         <item itemvalue="JUnit.FactoryTest.instructorFactoryShouldReturnHumanConstructor" />
         <item itemvalue="JUnit.FactoryTest.main" />
         <item itemvalue="Application.Main" />
@@ -163,7 +158,7 @@
       <workItem from="1667317911177" duration="228000" />
       <workItem from="1667318181615" duration="8902000" />
       <workItem from="1667382016672" duration="133000" />
-      <workItem from="1667383074505" duration="4287000" />
+      <workItem from="1667383074505" duration="5812000" />
     </task>
     <servers />
   </component>
