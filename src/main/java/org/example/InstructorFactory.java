@@ -1,11 +1,14 @@
 package org.example;
 
 public class InstructorFactory{
-    public  Instructor returnInstructor(String typeOfInstructor){
+    public static Instructor returnInstructor(String typeOfInstructor){
         if (typeOfInstructor == null || typeOfInstructor.isEmpty())
             return null;
-        switch (typeOfInstructor)
-            return new HumanInstructor();
+        switch (typeOfInstructor) {
+            case "human":
+                return new HumanInstructor();
+            default:
+                throw new IllegalArgumentException("Unknown type of instructor "+typeOfInstructor);
         }
 
     }

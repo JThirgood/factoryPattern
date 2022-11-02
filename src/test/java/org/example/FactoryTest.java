@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.util.List;
+
 class FactoryTest {
 
     @Test
@@ -45,14 +47,20 @@ class FactoryTest {
         InstructorFactory instructorFactory = new InstructorFactory();
         String question = "java";
         String expectedAnswer = "JAVA";
+        String typeOfInstructor = "human";
 
         // act
-        Instructor instructor1 = instructorFactory.returnInstructor();
+        Instructor instructor1 = instructorFactory.returnInstructor(typeOfInstructor);
         String actualAnswer = instructor1.askQuestion(question);
-        // no assert
-        Assertions.assertEquals(expectedAnswer,actualAnswer);
+
+        // assertions
+        Assertions.assertInstanceOf(HumanInstructor.class, instructor1);
 
     }
+
+
+
+
 
 
 }
